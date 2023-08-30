@@ -13,17 +13,17 @@ plugins:
     - state
     - catalog
     - discover
-    - about
-    - stream-maps
     config:
       start_date: '2010-01-01T00:00:00Z'
     settings:
-    # TODO: To configure using Meltano, declare settings and their types here:
-    - name: username
+    - name: driver
+    - name: host
+    - name: port
+    - name: database
+    - name: user
     - name: password
       kind: password
-    - name: start_date
-      value: '2010-01-01T00:00:00Z'
+    - name: default schema
   loaders:
   - name: target-jsonl
     variant: andyh1203
