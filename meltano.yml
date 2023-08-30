@@ -16,14 +16,14 @@ plugins:
     config:
       start_date: '2010-01-01T00:00:00Z'
     settings:
-    - name: driver
-    - name: host
-    - name: port
-    - name: database
-    - name: user
-    - name: password
+    - name: Driver
+    - name: Host
+    - name: Port
+    - name: Database
+    - name: User
+    - name: Password
       kind: password
-    - name: default schema
+    - name: DefaultSchema
   loaders:
   - name: target-jsonl
     variant: andyh1203
