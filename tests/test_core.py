@@ -7,8 +7,12 @@ from singer_sdk.testing import get_tap_test_class
 from tap_progressopenedge.tap import TapProgressOpenEdge
 
 SAMPLE_CONFIG = {
-    "start_date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"),
-    # TODO: Initialize minimal tap config
+    'DRIVER':'DataDirect 7.1 OpenEdge Wire Protocol',
+    'HOST':'HOST',
+    'PORT':'0000',
+    'DB':'TestDB',
+    'UID':'username',
+    'PWD':'pass'
 }
 
 
