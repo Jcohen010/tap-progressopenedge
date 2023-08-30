@@ -27,7 +27,7 @@ pipx install git+https://github.com/ORG_NAME/tap-progressopenedge.git@main
 ### OpenEdge ODBC Driver
 In order for this tap to successfully connect to the progress openedge database, the user must have a Data Direct OpenEdge ODBC driver installed and configured on their device. It would be wise to test the connection to the source through the ODBC driver before using the tap.
 
-#### Installation
+#### Resources for ODBC setup
 View the installation guide [here](https://docs.progress.com/bundle/datadirect-odbc-installation/page/Copyright.html).
 
 View the getting started (configuration and adding a new connection) guide [here](https://docs.progress.com/bundle/datadirect-connect-odbc-71/page/Quick-Start-Connect.html).
