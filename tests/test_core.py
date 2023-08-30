@@ -8,6 +8,7 @@ from tap_progressopenedge.tap import TapProgressOpenEdge
 
 sample_config = {
     'Driver' : 'Test Driver',
+    'Port' : '0000',
     'Host' : 'Test_Host',
     'User' : 'Test_User',
     'Password' : 'Pass',
