@@ -685,9 +685,9 @@ files = [
 ]
 
 [[package]]
-name = "progress_sa"
+name = "progress-sa"
 version = "0.0.1"
-description = ""
+description = "Minimal SQLAlchemy dialect for Progress OpenEdge 11."
 optional = false
 python-versions = "*"
 files = []
@@ -700,7 +700,7 @@ SQLAlchemy = ">=1.1.2"
 type = "git"
 url = "https://github.com/Jcohen010/progress_sa.git"
 reference = "main"
-resolved_reference = "c3186f324f9d119a0878de5bb24a457dbd2d0b93"
+resolved_reference = "7f3b3f1ab7ac93ee1a9a499b34986057cb2bdf7d"
 
 [[package]]
 name = "pycparser"
