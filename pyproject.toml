@@ -14,7 +14,7 @@ license = "Apache-2.0"
 python = "<3.12,>=3.7.1"
 fs-s3fs = { version = "^1.1.1", optional = true }
 pyodbc = "^4.0.39"
-sqlalchemy = "^2.0.20"
+sqlalchemy = "^2.0.21"
 progress-sa = {git = "https://github.com/Jcohen010/progress_sa.git", rev = "main"}
 singer-sdk = {git = "https://github.com/Jcohen010/singer-sdk.git"}
 
